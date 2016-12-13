@@ -1,0 +1,25 @@
+{
+  "name": "microit/laravel-admin-base-standalone",
+  "description": "Admin base standalone",
+  "license": "proprietary",
+  "type": "package",
+  "homepage": "http://www.micro-it.nl",
+  "authors": [
+    {
+      "name": "Jeroen el Hahaoui",
+      "email": "j.el.hahaoui@micro-it.nl",
+      "homepage": "http://www.micro-it.nl",
+      "role": "Developer"
+    }
+  ],
+  "require" : {
+    "guzzlehttp/guzzle": "~6.0",
+    "almasaeed2010/adminlte": "~2.0",
+    "dcn/rbac": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Microit\\LaravelAdminBaseStandalone\\": "src/"
+    }
+  }
+}

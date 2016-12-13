@@ -1,0 +1,8 @@
+dashboard:
+  display_name: Dashboard
+  icon: fa-dashboard
+  route: admin.dashboard
+logoff:
+  display_name: Uitloggen
+  icon: fa-sign-out
+  route: admin.logout
